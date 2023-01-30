@@ -4,6 +4,10 @@ Question à poser :
 
 Quel est la différence entre un string et un text, et medium Text pour les migrations ?
 Pourquoi met il des "true" en deuxième paramètre au niveau des rand dans les factories ?
+Les requetes optimisées dans le fichier \Model\Post voir avec alex. Est ce que l'on fait ça quand on passe par une clée étrangère ?
+
+Voir dossier avec alex
 
 https://www.youtube.com/watch?v=F8iYtkBXoh4&list=PLjGjIl-5FHihZbX1GtS7u1pLgi7I6ll9l&index=10&t=726s&ab_channel=NordCoders
 17:00
+34:35
