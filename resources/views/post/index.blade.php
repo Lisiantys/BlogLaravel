@@ -9,7 +9,7 @@
     <div class="mx-auto max-w-md overflow-hidden rounded-lg bg-white shadow">
 
         <img
-          src="{{ $post->image }}"
+          src="{{ asset('/storage/' . $post->image  )}}"
           class="aspect-video w-full object-cover"
           alt=""
         />
@@ -23,6 +23,7 @@
             >
               {{ $post->category->name }}
             </span>
+            <span><a href="{{ route('posts.show', $post) }}"> Voir plus</a></span>
           </div>
         </div>
     </div>

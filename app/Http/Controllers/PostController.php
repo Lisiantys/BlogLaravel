@@ -48,7 +48,7 @@ class PostController extends Controller
             "title" => $request->title,
             "content" => $request->content,
             "image" => $imageName
-        ]);
+        ]); // a PRENDRE EN COMPTE LA METHODE BOOT DANS LE \MODEL\POST
 
         return redirect()->route('dashboard')->with('success', 'Votres post a été créé');
     }
@@ -61,7 +61,7 @@ class PostController extends Controller
      */
     public function show(Post $post)
     {
-       
+       return view('post.show', compact('post'));
     }
 
     /**
@@ -72,7 +72,8 @@ class PostController extends Controller
      */
     public function edit(Post $post)
     {
-        
+        $categories = Category::all();
+        return view('post.edit', compact('post', 'categories'));
     }
 
     /**
@@ -82,7 +83,7 @@ class PostController extends Controller
      * @param  \App\Models\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Post $post)
+    public function update(StorePostRequest $request, Post $post)
     {
        
     }
