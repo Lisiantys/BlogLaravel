@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : dim. 29 jan. 2023 à 21:11
+-- Généré le : jeu. 02 fév. 2023 à 23:48
 -- Version du serveur : 10.4.27-MariaDB
 -- Version de PHP : 8.1.12
 
@@ -158,7 +158,8 @@ INSERT INTO `posts` (`id`, `title`, `content`, `image`, `created_at`, `updated_a
 (18, 'Occaecati sit ipsum eius laudantium nisi.', 'Rerum quia inventore facere quo occaecati. Qui quod omnis illo repellendus hic. Est soluta qui excepturi unde sit provident. Minima ipsum iure voluptatum pariatur. Doloremque quod explicabo et sit sed.', 'https://via.placeholder.com/150', '2023-01-29 19:03:46', '2023-01-29 19:03:46', 9, 3),
 (19, 'Cumque quod natus sapiente et et quas dolorem voluptatibus.', 'Et dolorem ex et eveniet numquam consequatur labore repudiandae. In occaecati asperiores aut fugiat velit cum. Asperiores qui facere ipsam qui. Neque id impedit voluptate sint sed. Corporis nihil consequuntur illum est consequuntur minima quia dolores.', 'https://via.placeholder.com/150', '2023-01-29 19:03:46', '2023-01-29 19:03:46', 10, 5),
 (20, 'Sed assumenda repellat aut doloremque consequuntur quia dicta.', 'Omnis pariatur blanditiis nesciunt quas. Amet consectetur labore architecto quia eligendi. Nobis aut iste voluptas deleniti in repellat autem. Minima qui et eos et. Quia rerum sapiente ea.', 'https://via.placeholder.com/150', '2023-01-29 19:03:46', '2023-01-29 19:03:46', 10, 5),
-(21, 'Ullam explicabo quas est quas.', 'Cumque ut itaque nemo praesentium expedita id corrupti. Eius voluptatem quia error quidem magnam ut. Omnis repellat iusto nisi aperiam. Incidunt fuga adipisci quam nulla voluptates mollitia eligendi. Consequatur rem aliquid quo exercitationem.', 'https://via.placeholder.com/150', '2023-01-29 19:03:46', '2023-01-29 19:03:46', 10, 5);
+(21, 'Ullam explicabo quas est quas.', 'Cumque ut itaque nemo praesentium expedita id corrupti. Eius voluptatem quia error quidem magnam ut. Omnis repellat iusto nisi aperiam. Incidunt fuga adipisci quam nulla voluptates mollitia eligendi. Consequatur rem aliquid quo exercitationem.', 'https://via.placeholder.com/150', '2023-01-29 19:03:46', '2023-01-29 19:03:46', 10, 5),
+(22, 'Mon Super Post 3', 'super text 3', 'posts/6E3eDbmmExezDPHCJd1nwUGyPPvtMu4kuRWJWgIK.png', '2023-01-31 21:10:33', '2023-02-02 21:00:54', 5, 4);
 
 -- --------------------------------------------------------
 
@@ -192,7 +193,7 @@ INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `re
 (8, 'Mittie Erdman', 'johnson.kacie@example.org', '2023-01-29 19:03:46', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Zgp1cKvJqS', '2023-01-29 19:03:46', '2023-01-29 19:03:46'),
 (9, 'Javier Nikolaus', 'nyah03@example.org', '2023-01-29 19:03:46', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'gAASst8KP0', '2023-01-29 19:03:46', '2023-01-29 19:03:46'),
 (10, 'Bradford Mayer', 'rschmeler@example.com', '2023-01-29 19:03:46', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'hO400UQALL', '2023-01-29 19:03:46', '2023-01-29 19:03:46'),
-(11, 'Admin', 'admin@gmail.com', NULL, '$2y$10$zsxxEVyB8eQ5ZK6g3XS96O2fUTd3qSJqboFAIpoBMl30aOfjmQ3wO', NULL, '2023-01-29 19:10:40', '2023-01-29 19:10:40');
+(11, 'Admin', 'admin@gmail.com', NULL, '$2y$10$zsxxEVyB8eQ5ZK6g3XS96O2fUTd3qSJqboFAIpoBMl30aOfjmQ3wO', 'iBXPP0q43ipxM96esu0VWVi6Zv4B3d3ssDfXgedHFJnCQCh2y4VQwI2RwBj9', '2023-01-29 19:10:40', '2023-01-29 19:10:40');
 
 --
 -- Index pour les tables déchargées
@@ -276,7 +277,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT pour la table `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT pour la table `users`

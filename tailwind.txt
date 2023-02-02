@@ -1,10 +1,10 @@
 https://tailwindcomponents.com/component/blog-card-1
 
-Question à poser :
+Questions à poser :
 
-Quel est la différence entre un string et un text, et medium Text pour les migrations ?
-Pourquoi met il des "true" en deuxième paramètre au niveau des rand dans les factories ?
-Pourquoi avoir appelé la Route, Route::resource ? (Route show existe deja grace a route resource)
+Quelle est la différence entre un string et un text, et medium Text pour les migrations ?
+Pourquoi met'il des "true" en deuxième paramètre au niveau des rands dans les factories ?
+Pourquoi avoir appelé la Route, Route::resource ? 
 Voir la méthode boot. 
 Quest ce c'est que les {{ __('nom') }} ?
 Les requetes optimisées dans le fichier \Model\Post voir avec alex. Est ce que l'on fait ça quand on passe par une clée étrangère ?
@@ -12,9 +12,11 @@ Les requetes optimisées dans le fichier \Model\Post voir avec alex. Est ce que 
 Voir dossier avec alex
 
 https://www.youtube.com/watch?v=F8iYtkBXoh4&list=PLjGjIl-5FHihZbX1GtS7u1pLgi7I6ll9l&index=10&t=726s&ab_channel=NordCoders
-17:00
-34:35
-51:30
+J1-17:00
+J2-34:35
+J3-51:30
+J4-1:03:10
+J5-DONE
 
 Chapitre à retravailler :
 
